@@ -1,19 +1,26 @@
-# 🧰 Side Projects Repository
 
-This repository contains a growing collection of small, focused side projects developed as part of my learning journey in Python, problem-solving, and software development. Each project is modular, command-line driven, and reflects a specific concept or skill I practiced.
+# 🧰 Side Projects
+
+A curated collection of small, focused Python projects built during my learning journey. Each folder is self-contained and designed to demonstrate a specific skill, concept, or CLI utility.
 
 ---
 
-## 📁 Projects Included
+## 📁 Project List
 
-| Project Name     | Description                                          | Folder         |
-|------------------|------------------------------------------------------|----------------|
-| 📇 Contact Book  | CLI contact manager using Python dictionaries        | `contact_book/`|
+| Project          | Description                                      |
+|------------------|--------------------------------------------------|
+| 📇 contact_book   | A CLI-based contact manager using Python dicts   |
+| 🧠 quiz_cli       | Command-line quiz application (general knowledge)|
+| 🗃 flashcard_tool  | CLI tool for spaced repetition flashcard review |
 
+> Each project includes its own `README.md` with usage instructions.
 
+---
 
-## 🗂 Directory Structure
-SSide_projects/
+## 📦 Directory Structure
+
+```
+Side_projects/
 ├── contact_book/
 │   ├── contact_book.py
 │   └── README.md
@@ -26,6 +33,39 @@ SSide_projects/
 │   ├── flashcards.py
 │   └── README.md
 │
-└── README.md      ← Main repo README listing all projects
+└── README.md        # Main repo README listing all projects
+```
 
+---
 
+## 🚀 How to Use
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your-username/Side_projects.git
+   cd Side_projects
+   ```
+
+2. Navigate to any project:
+   ```bash
+   cd contact_book
+   python contact_book.py
+   ```
+
+3. Each project includes:
+   - Python code
+   - A local `README.md` with instructions
+   - Optional: dependencies or data files
+
+---
+
+## 📌 Contribution & Updates
+
+This repo is updated as I explore new problems and build new utilities. Feel free to fork and explore — or reach out if you'd like to collaborate!
+
+---
+
+## 🧠 Author
+
+Built with ❤️ by [Your Name]  
+🔗 [GitHub](https://github.com/your-username)
