@@ -25,11 +25,11 @@ Side_projects/
 │   ├── contact_book.py
 │   └── README.md
 │
-├── quiz_cli/
+├── quiz_cli/ (not finished)
 │   ├── quiz.py
 │   └── README.md
 │
-├── flashcard_tool/
+├── flashcard_tool/ (not finished)
 │   ├── flashcards.py
 │   └── README.md
 │
