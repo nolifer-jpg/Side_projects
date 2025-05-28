@@ -13,5 +13,20 @@ This repository contains a growing collection of small, focused side projects de
 
 
 ## 🗂 Directory Structure
+Side_projects/
+│
+├── contact_book/
+│   ├── contact_book.py
+│   └── README.md              ← Project-specific README
+│
+├── quiz_cli/                  ← (Example future project)
+│   ├── quiz.py
+│   └── README.md
+│
+├── flashcard_tool/            ← (Example future project)
+│   ├── flashcards.py
+│   └── README.md
+│
+└── README.md                  ← Main repo README (project list, instructions)
 
 
