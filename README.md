@@ -67,5 +67,5 @@ This repo is updated as I explore new problems and build new utilities. Feel fre
 
 ## 🧠 Author
 
-Built with ❤️ by [Your Name]  
+Built with ❤️ by [Souhard Roy]  
 🔗 [GitHub](https://github.com/your-username)
