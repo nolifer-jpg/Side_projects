@@ -21,7 +21,7 @@ A curated collection of small, focused Python projects built during my learning 
 
 ```
 Side_projects/
-├── contact_book/
+├── contacts_book/
 │   ├── contact_book.py
 │   └── README.md
 │
