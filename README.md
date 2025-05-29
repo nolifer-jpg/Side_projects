@@ -11,7 +11,7 @@ A curated collection of beginner-friendly yet impactful Python projects, develop
 |------------------|----------------|---------------------------------------------------------------|
 | 📇 contact_book   | ✅ Completed   | A command-line contact manager using Python dictionaries.     |
 | 🧠 quiz_cli       | 🚧 In Progress | General knowledge quiz CLI app with multiple choice format.   |
-| 🗃 flashcard_tool  | 🚧 In Progress | Flashcard utility for practicing Q&A pairs via CLI.           |
+| 🗃 flashcard_tool  | ✅ Completed   | Flashcard utility for practicing Q&A pairs via CLI.           |
 
 > Each project includes a dedicated `README.md` with features, instructions, and learnings.
 
