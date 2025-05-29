@@ -1,64 +1,48 @@
 
-# 📇 Contact Book CLI
+# Contact Book CLI App
 
-A simple command-line contact manager built using Python dictionaries. This project is part of my Side Projects repository and demonstrates the use of basic data structures and control flow in Python.
+A command-line Contact Book application built in Python that allows users to manage contacts by adding, viewing, searching, and deleting entries.
 
----
-
-## 🛠 Features
-
-- Add a new contact (name + phone number)
-- View all saved contacts
-- Search a contact by name
+## 🚀 Features
+- Add contacts with name and phone number
+- View all contacts
+- Search contact by name
 - Delete a contact
-- Simple terminal-based menu interface
+- Command-line menu interface
 
----
+## 🛠️ How to Run
 
-## 🗂 File Structure
-
-```
-contact_book/
-├── contact_book.py
-└── README.md
-```
-
----
-
-## 🚀 How to Run
-
-Make sure you have Python 3 installed. Then run:
-
+1. Ensure Python 3.x is installed.
+2. Run the script using:
 ```bash
 python contact_book.py
 ```
 
----
-
-## 📌 Example
-
+## 📋 Sample Interaction
 ```
 1. Add contact
 2. View All contacts
 3. Search Contact
 4. Delete Contact
 5. Exit
+Enter choice: 1
+Enter Name: Alice
+Enter Phone Number: 1234567890
+Name and Phone number added.
 ```
 
-You can add and manage contacts through this simple interface.
+## 🧠 What I Learned
+- Dictionary data structures for contact storage
+- User input handling and validation
+- Structuring modular code with functions
 
----
+## 🔧 Future Improvements
+- Store contacts persistently using file I/O or database
+- Add email and address fields
+- Import/export contact list
 
-## 🧠 Concepts Used
+## 📦 Requirements
+No external libraries required — just built-in Python functions.
 
-- Python dictionaries
-- Functions and modular design
-- Loops and conditionals
-- Input validation
-- Exception handling
-
----
-
-## 🧑‍💻 Author
-
-Built as part of my learning journey — check out the full [Side_projects](https://github.com/your-username/Side_projects) repo for more CLI tools.
+## 🪪 License
+MIT License — free to use and modify.
