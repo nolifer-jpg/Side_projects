@@ -1,4 +1,3 @@
-
 # 🧰 Side Projects Repository
 
 A curated collection of beginner-friendly yet impactful Python projects, developed while learning core concepts of programming, data structures, and problem solving. Each project is fully self-contained and reflects hands-on applications of real-world CLI tools.
@@ -10,13 +9,9 @@ A curated collection of beginner-friendly yet impactful Python projects, develop
 | Project          | Status         | Description                                                   |
 |------------------|----------------|---------------------------------------------------------------|
 | 📇 contact_book   | ✅ Completed   | A command-line contact manager using Python dictionaries.     |
-<<<<<<< HEAD
-| 🧠 quiz_cli       | 🚧 In Progress | General knowledge quiz CLI app with multiple choice format.   |
+| 🧠 quiz_cli       | ✅ Completed   | General knowledge quiz CLI app with multiple choice format.   |
 | 🗃 flashcard_tool  | ✅ Completed   | Flashcard utility for practicing Q&A pairs via CLI.           |
-=======
-| 🧠 flashcard_tool  | ✅ Completed   | Flashcard utility for practicing Q&A pairs via CLI.           |
 | 🧮 calculator_app  | ✅ Completed   | Simple calculator CLI tool with exception handling.           |
->>>>>>> dea0e53 (update)
 
 > Each project includes a dedicated `README.md` with features, instructions, and learnings.
 
@@ -28,6 +23,10 @@ A curated collection of beginner-friendly yet impactful Python projects, develop
 Side_projects/
 ├── contacts_book/
 │   ├── contact_book.py
+│   └── README.md
+│
+├── quiz_cli/
+│   ├── quiz.py
 │   └── README.md
 │
 ├── flashcard_tool/
