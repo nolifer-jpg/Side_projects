@@ -2,7 +2,7 @@
 
 This repository contains my implementation of Problem Set 2 from the MIT 6.0001 (Introduction to Computer Science and Programming in Python) course. The assignment involves building a fully interactive Hangman game using Python.
 
-## 🧩 Overview
+## 🧩 Problem Overview
 
 You are tasked with implementing a console-based version of the classic game **Hangman**. The player attempts to guess a secret word, one letter at a time, within a limited number of guesses and warnings.
 
