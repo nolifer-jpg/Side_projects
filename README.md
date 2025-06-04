@@ -12,6 +12,7 @@ A curated collection of beginner-friendly yet impactful Python projects, develop
 | 🧠 quiz_cli       | ✅ Completed   | General knowledge quiz CLI app with multiple choice format.   |
 | 🗃 flashcard_tool  | ✅ Completed   | Flashcard utility for practicing Q&A pairs via CLI.           |
 | 🧮 calculator_app  | ✅ Completed   | Simple calculator CLI tool with exception handling.           |
+| 🏁 hangman_game  | ✅ Completed   | Simple cli based game with exception handling           |
 
 > Each project includes a dedicated `README.md` with features, instructions, and learnings.
 
