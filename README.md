@@ -12,7 +12,8 @@ A curated collection of beginner-friendly yet impactful Python projects, develop
 | 🧠 quiz_cli       | ✅ Completed   | General knowledge quiz CLI app with multiple choice format.   |
 | 🗃 flashcard_tool  | ✅ Completed   | Flashcard utility for practicing Q&A pairs via CLI.           |
 | 🧮 calculator_app  | ✅ Completed   | Simple calculator CLI tool with exception handling.           |
-| 🏁 hangman_game  | ✅ Completed   | Simple cli based game with exception handling           |
+| 🏁 hangman_game    | ✅ Completed   | Simple CLI-based hangman game with input validation.          |
+| ✅ todo_app        | ✅ Completed   | A CLI To-Do list manager that supports sorting, searching, and task completion tracking. |
 
 > Each project includes a dedicated `README.md` with features, instructions, and learnings.
 
@@ -36,6 +37,14 @@ Side_projects/
 │
 ├── calculator_app/
 │   ├── calculator.py
+│   └── README.md
+│
+├── hangman_game/
+│   ├── hangman.py
+│   └── README.md
+│
+├── todo_app/
+│   ├── todo.py
 │   └── README.md
 │
 └── README.md        # Main repository documentation
@@ -87,5 +96,5 @@ This repository evolves as I learn and build more. I'm open to ideas, improvemen
 
 Built with 💻 and 💡 by **Souhard Roy**
 
-- 🔗 [GitHub Profile](https://github.com/your-username)
+- 🔗 [GitHub Profile](https://github.com/nolifer-jpg)
 - ✉️ Always open to feedback and learning together!
