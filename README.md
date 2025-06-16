@@ -1,100 +1,94 @@
-# 🧰 Side Projects Repository
+# 🧰 Side Projects & Mini‑Apps Repository
 
-A curated collection of beginner-friendly yet impactful Python projects, developed while learning core concepts of programming, data structures, and problem solving. Each project is fully self-contained and reflects hands-on applications of real-world CLI tools.
+A curated collection of **Python *and Java* projects** built while learning core programming concepts, data structures, and problem‑solving. Each folder is self‑contained and includes its own README, source files, and sample usage.
 
 ---
 
 ## 📁 Projects Overview
 
-| Project          | Status         | Description                                                   |
-|------------------|----------------|---------------------------------------------------------------|
-| 📇 contact_book   | ✅ Completed   | A command-line contact manager using Python dictionaries.     |
-| 🧠 quiz_cli       | ✅ Completed   | General knowledge quiz CLI app with multiple choice format.   |
-| 🗃 flashcard_tool  | ✅ Completed   | Flashcard utility for practicing Q&A pairs via CLI.           |
-| 🧮 calculator_app  | ✅ Completed   | Simple calculator CLI tool with exception handling.           |
-| 🏁 hangman_game    | ✅ Completed   | Simple CLI-based hangman game with input validation.          |
-| ✅ todo_app        | ✅ Completed   | A CLI To-Do list manager that supports sorting, searching, and task completion tracking. |
+| Project Folder         | Status      | Description                                                                                               |
+| ---------------------- | ----------- | --------------------------------------------------------------------------------------------------------- |
+| 🏦 **BankApp**         | ✅ Completed | Console‑based banking system (Java) featuring accounts, deposit/withdraw, and simple transaction history. |
+| 💰 **Payroll**         | ✅ Completed | Company payroll calculator (Java); demonstrates inheritance, abstract classes, and polymorphism.          |
+| 📇 **contacts\_book**  | ✅ Completed | Command‑line contact manager using Python dictionaries.                                                   |
+| 🧠 **quiz\_cli**       | ✅ Completed | CLI general‑knowledge quiz with multiple‑choice questions.                                                |
+| 🗃 **flashcard\_tool** | ✅ Completed | Flashcard utility for spaced repetition via the terminal.                                                 |
+| 🧮 **calculator\_app** | ✅ Completed | Simple calculator CLI with input validation and error handling.                                           |
+| 🏁 **hangman\_game**   | ✅ Completed | Classic hangman game implemented for the terminal in Python.                                              |
+| ✅ **todo\_app**        | ✅ Completed | To‑Do list manager (Python) supporting add/remove, sort/search, and completion flags.                     |
 
-> Each project includes a dedicated `README.md` with features, instructions, and learnings.
+> Every project folder has a dedicated `README.md` that details setup, features, and key learnings.
 
 ---
 
-## 📦 Directory Structure
+## 📦 Directory Structure (excerpt)
 
 ```
-Side_projects/
+.
+├── BankApp/
+│   ├── src/
+│   │   └── ...java
+│   └── README.md
+├── Payroll/
+│   ├── src/
+│   │   └── ...java
+│   └── README.md
 ├── contacts_book/
-│   ├── contact_book.py
-│   └── README.md
-│
+│   └── contact_book.py
 ├── quiz_cli/
-│   ├── quiz.py
-│   └── README.md
-│
+│   └── quiz.py
 ├── flashcard_tool/
-│   ├── flashcards.py
-│   └── README.md
-│
+│   └── flashcards.py
 ├── calculator_app/
-│   ├── calculator.py
-│   └── README.md
-│
+│   └── calculator.py
 ├── hangman_game/
-│   ├── hangman.py
-│   └── README.md
-│
+│   └── hangman.py
 ├── todo_app/
-│   ├── todo.py
-│   └── README.md
-│
-└── README.md        # Main repository documentation
+│   └── todo.py
+└── README.md   # ← this file
 ```
 
 ---
 
 ## 🚀 Getting Started
 
-To run any project locally:
+Clone the repo and run any project:
 
 ```bash
-git clone https://github.com/your-username/Side_projects.git
-cd Side_projects/<project_folder>
-python <script_name>.py
+git clone https://github.com/nolifer-jpg/Side_projects.git
+cd Side_projects/BankApp   # example
+# For Java projects
+javac -d bin src/**/*.java
+java -cp bin MainClass
+
+# For Python projects
+cd ../contacts_book
+python contact_book.py
 ```
 
-> Replace `<project_folder>` and `<script_name>` with actual names such as `contacts_book` and `contact_book.py`.
+---
+
+## 🧠 Key Learnings Across Projects
+
+* **Python fundamentals**: control flow, functions, exception handling.
+* **Java OOP**: inheritance, polymorphism, abstract classes, encapsulation.
+* Building **CLI interfaces**.
+* Basic **file I/O** and data persistence.
+* Writing clean, modular code and detailed documentation.
 
 ---
 
-## 🧠 Key Learnings
+## 🔧 Roadmap / Future Work
 
-Each project reinforces:
-- Python fundamentals (control flow, functions, data types)
-- CLI interface building
-- Dictionary-based data storage
-- Error handling & user interaction
-- Randomization and modular programming
-
----
-
-## 🔧 Future Additions
-
-- Add persistence using file I/O or JSON
-- Unit tests and edge case handling
-- Option to run as a Python module/package
-- Enhanced interactivity for flashcard or calculator apps
-
----
-
-## 📌 Contributions & Updates
-
-This repository evolves as I learn and build more. I'm open to ideas, improvements, or even feature suggestions. Feel free to fork, clone, or contribute!
+* Add unit tests for each project (PyTest / JUnit).
+* Introduce persistent storage (JSON or a lightweight DB) for contacts\_book and todo\_app.
+* Expand BankApp with interest calculation and simple authentication.
+* Dockerize selected apps for easier deployment.
 
 ---
 
 ## 👤 Author
 
-Built with 💻 and 💡 by **Souhard Roy**
-
-- 🔗 [GitHub Profile](https://github.com/nolifer-jpg)
-- ✉️ Always open to feedback and learning together!
+Built with 💻 and 💡 by **Souhard Roy**
+🔗 [https://github.com/nolifer-jpg](https://github.com/nolifer-jpg)
+Always open to feedback and collaboration!
