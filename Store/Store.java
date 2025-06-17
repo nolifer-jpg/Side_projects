@@ -38,7 +38,7 @@ public class Store {
     public void removeProduct(String name){
         for (int i =0; i< inventory.length; i++){
             Product p = inventory[i];
-            if (p != null && Objects.equals(p.name, name)){
+            if (p != null && name.equalsIgnoreCase(p.name)){
                 inventory[i] = null;
                 System.out.println("Removed " + name);
                 return;
@@ -46,6 +46,28 @@ public class Store {
         }
     }
 
+    public void updatePrice(String name, double newPrice){
+        for(Product x: inventory){
+            if (x!= null && name.equalsIgnoreCase(x.name)){
+                x.price = newPrice;
+                System.out.println("Price updated to "+newPrice);
+                return;
+            }
+        }
+    }
+
+    public void printLowStock(int threshold){
+        boolean found = false;
+        for(Product x: inventory) {
+            if (x != null && x.quantity < threshold) {
+                System.out.println(x);
+                found = true;
+            }
+        }
+        if(!found){
+            System.out.println("All stock levels are healthy.");
+        }
+    }
 
 
     /* ---------- API method #3 : print everything ---------- */
